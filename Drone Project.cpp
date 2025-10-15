@@ -1,9 +1,11 @@
-// git add .
-// git commit -m "Updated code/documentation"
-// git push
+/*
+git add .
+git commit -m "Updated code/documentation"
+git push
 
-// git pull
+git pull
 
+*/
 #include <iostream>
 #include <bits/stdc++.h>
 #include <string>   
