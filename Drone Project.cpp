@@ -107,13 +107,12 @@ int main() {
         maxtask.pop();
     }
 
-    // testing
 
-    // cout << "Here are how many are going to be delivered each time" << endl;
-    // while (!maxtask.empty()){
-    //     cout << maxtask.front() << ' ';
-    //     maxtask.pop();
-    // }
+    cout << "Here are how many are going to be delivered each time" << endl;
+    while (!maxtask.empty()){
+        cout << maxtask.front() << ' ';
+        maxtask.pop();
+    }
     
     
     REzero;
