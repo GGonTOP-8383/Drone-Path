@@ -3,7 +3,9 @@ git add .
 git commit -m "Updated code/documentation"
 git push
 
+
 git pull
+
 */
 #include <iostream>
 #include <bits/stdc++.h>
@@ -108,13 +110,12 @@ int main() {
         maxtask.pop();
     }
 
-    // testing
 
-    // cout << "Here are how many are going to be delivered each time" << endl;
-    // while (!maxtask.empty()){
-    //     cout << maxtask.front() << ' ';
-    //     maxtask.pop();
-    // }
+    cout << "Here are how many are going to be delivered each time" << endl;
+    while (!maxtask.empty()){
+        cout << maxtask.front() << ' ';
+        maxtask.pop();
+    }
     
     
     REzero;
